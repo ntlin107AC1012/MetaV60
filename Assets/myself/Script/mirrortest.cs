@@ -31,8 +31,8 @@ public void MirrorFromTo(Transform sourceTransform, Transform destTransform)
     destTransform.position = mirroredPosition;
 
     // 计算鏡像旋转
-   // Quaternion mirroredRotation = MirrorRotation(sourceTransform.rotation, playerTransform);
-   // destTransform.rotation = mirroredRotation;
+    Quaternion mirroredRotation = MirrorRotation(sourceTransform.rotation, playerTransform);
+    destTransform.rotation = mirroredRotation;
 }
 Vector3 MirrorPosition(Vector3 sourcePosition, Transform userTransform)
 {
