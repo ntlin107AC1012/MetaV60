@@ -1,0 +1,4 @@
+repository "MetaV60@dongshen1115@cloud"
+  path "/"
+    br "/main"
+    co "/main"
