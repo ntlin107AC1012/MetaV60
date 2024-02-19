@@ -7,13 +7,8 @@ using UnityEngine;
 
 public class mirrortest : MonoBehaviour
 {
-public GameObject leftHand;
+    public GameObject leftHand;
     public GameObject rightHand;
-    public float Pos_x, Pos_y, Pos_z;
-    public float Rot_x, Rot_y, Rot_z;
-    public GameObject leftHandAnchor;
-    public GameObject rightHandAnchor;
-
     public Transform playerTransform;
     
     Vector3 currentPosition;
@@ -65,12 +60,5 @@ Quaternion MirrorRotation(Quaternion sourceRotation, Transform userTransform)
     return mirroredRotation;
 }
 
-
-float NormalizeAngle(float angle)
-{
-    while (angle > 180f) angle -= 360f;
-    while (angle < -180f) angle += 360f;
-    return angle;
-}
 
 }
