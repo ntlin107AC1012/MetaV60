@@ -20,7 +20,7 @@ public class testball : MonoBehaviour
         originalPosition = transform.position;
         // 獲取 Rigidbody 組件
         rb = GetComponent<Rigidbody>();
-
+        
        
     }
     public void Getroom()
