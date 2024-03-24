@@ -4782,6 +4782,23 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5679112963628884800, guid: 4c0ee7a14e52ba544b89c2f777670cca, type: 3}
   m_PrefabInstance: {fileID: 8257234162160208675}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1931781245 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2406167592479472067, guid: ef476eca87dc72243a59a93a7666a6a0, type: 3}
+  m_PrefabInstance: {fileID: 8902802387607828791}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1931781248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931781245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b4cf4930a9b5ce4aafa7f7b129f5ffd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1935843841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10431,6 +10448,34 @@ PrefabInstance:
       propertyPath: _whenRelease.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
       objectReference: {fileID: 1839251151}
+    - target: {fileID: 6403840162398574776, guid: 32ef4fa8f84f0ba4ca635be5e8bd5b03, type: 3}
+      propertyPath: _whenRelease.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6403840162398574776, guid: 32ef4fa8f84f0ba4ca635be5e8bd5b03, type: 3}
+      propertyPath: _whenRelease.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6403840162398574776, guid: 32ef4fa8f84f0ba4ca635be5e8bd5b03, type: 3}
+      propertyPath: _whenRelease.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1931781248}
+    - target: {fileID: 6403840162398574776, guid: 32ef4fa8f84f0ba4ca635be5e8bd5b03, type: 3}
+      propertyPath: _whenRelease.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: controllpassthrough
+      objectReference: {fileID: 0}
+    - target: {fileID: 6403840162398574776, guid: 32ef4fa8f84f0ba4ca635be5e8bd5b03, type: 3}
+      propertyPath: _whenRelease.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: test1, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6403840162398574776, guid: 32ef4fa8f84f0ba4ca635be5e8bd5b03, type: 3}
+      propertyPath: _whenRelease.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6403840162398574776, guid: 32ef4fa8f84f0ba4ca635be5e8bd5b03, type: 3}
+      propertyPath: _whenRelease.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6735953544700133852, guid: 32ef4fa8f84f0ba4ca635be5e8bd5b03, type: 3}
       propertyPath: _whenRelease.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -11752,6 +11797,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1013638352047674223, guid: ef476eca87dc72243a59a93a7666a6a0, type: 3}
+      propertyPath: _trackingOriginType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1013638352047674223, guid: ef476eca87dc72243a59a93a7666a6a0, type: 3}
+      propertyPath: isInsightPassthroughEnabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1013638352047674223, guid: ef476eca87dc72243a59a93a7666a6a0, type: 3}
+      propertyPath: requestScenePermissionOnStartup
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2406167592479472067, guid: ef476eca87dc72243a59a93a7666a6a0, type: 3}
       propertyPath: m_Name
       value: OVRCameraRig (1)
@@ -11796,10 +11853,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8967250207272529543, guid: ef476eca87dc72243a59a93a7666a6a0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2406167592479472067, guid: ef476eca87dc72243a59a93a7666a6a0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1931781248}
   m_SourcePrefab: {fileID: 100100000, guid: ef476eca87dc72243a59a93a7666a6a0, type: 3}
 --- !u!33 &8924038911660274917
 MeshFilter:
